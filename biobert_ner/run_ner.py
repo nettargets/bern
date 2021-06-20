@@ -105,6 +105,9 @@ flags.DEFINE_string("tmvar2_home", os.path.join(os.path.expanduser('~'),
                                                 'bern', 'tmVarJava'), "")
 flags.DEFINE_string("tmvar2_host", 'localhost', "")
 flags.DEFINE_integer("tmvar2_port", 18896, "")
+# Fix https://nettargets.atlassian.net/browse/DV20-275 
+flags.DEFINE_string("f", "", "kernel")
+
 # BERN settings
 
 FLAGS = flags.FLAGS
