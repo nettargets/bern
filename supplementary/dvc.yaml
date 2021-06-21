@@ -1,0 +1,14 @@
+stages:
+  download_supplementary_data:
+    cmd: ./download.sh
+    deps:
+    - download.sh
+    outs:
+    - 2019_merged_json_fixed.zip
+    - README_species.txt
+    - chem_meta.tsv
+    - chem_meta_190806.tsv
+    - disease_meta_190805.tsv
+    - disease_meta_desc_190713.tsv
+    - gene_extids_190510.tsv
+    - gene_meta_190805.tsv
