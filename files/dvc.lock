@@ -1,0 +1,36 @@
+schema: '2.0'
+stages:
+  download_install_files:
+    cmd: ./download.sh
+    deps:
+    - path: download.sh
+      md5: 59bffc23ebe529d90d9992fed539631b
+      size: 2373
+    outs:
+    - path: GNormPlusJava.zip
+      md5: d99060fdadeef8d382a7ca5c5b7f71c9
+      size: 1000338374
+    - path: GNormPlusServer.jar
+      md5: 5945b0105961f393f6c70d3c3ce36d40
+      size: 9503004
+    - path: biobert_ner_models.zip
+      md5: f7ede436488036d54eecad71586a4ddc
+      size: 3127
+    - path: crfpp-0.58.tar.gz
+      md5: c8ffd456ab1a6815ba916c1083194a99
+      size: 790570
+    - path: resources.zip
+      md5: b9ffccf17796c52672fcf5aa4d7d7e1c
+      size: 1047393197
+    - path: sqlite-jdbc-3.20.0.jar
+      md5: ccbbce70b14b7b0e02be89ed3f38540b
+      size: 6637012
+    - path: stanford-corenlp-3.5.2.jar
+      md5: c9827171f5badc07f475a66b2768c095
+      size: 6718628
+    - path: tmVar2Server.jar
+      md5: a638f837186d2e2b0e765f9cfb1f0e92
+      size: 26729767
+    - path: tmVarJava.zip
+      md5: e9cb57179e48be8bb15e2e23b58787cc
+      size: 17394517309

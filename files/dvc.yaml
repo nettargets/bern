@@ -1,0 +1,15 @@
+stages:
+  download_install_files:
+    cmd: ./download.sh
+    deps:
+    - download.sh
+    outs:
+    - GNormPlusJava.zip
+    - GNormPlusServer.jar
+    - biobert_ner_models.zip
+    - crfpp-0.58.tar.gz
+    - resources.zip
+    - sqlite-jdbc-3.20.0.jar
+    - stanford-corenlp-3.5.2.jar
+    - tmVar2Server.jar
+    - tmVarJava.zip

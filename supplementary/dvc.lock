@@ -1,0 +1,33 @@
+schema: '2.0'
+stages:
+  download_supplementary_data:
+    cmd: ./download.sh
+    deps:
+    - path: download.sh
+      md5: 5e19682e83993663c6f5a0516677060d
+      size: 4237
+    outs:
+    - path: 2019_merged_json_fixed.zip
+      md5: 31fecb9405dedd6055d94f7ed938fbe6
+      size: 3127
+    - path: README_species.txt
+      md5: 24b42f613101f5679d9fbf1091eba07e
+      size: 193
+    - path: chem_meta.tsv
+      md5: b6a1165941eca69e9a50dba5db341baf
+      size: 4050111
+    - path: chem_meta_190806.tsv
+      md5: 50dbfdfb75059451cefb1df72f60df42
+      size: 25025659
+    - path: disease_meta_190805.tsv
+      md5: 10ebe0684221ddcbd6b49a17c11e9bc7
+      size: 5552886
+    - path: disease_meta_desc_190713.tsv
+      md5: 81058ab28ff2dce5c783c88304e14159
+      size: 4711254
+    - path: gene_extids_190510.tsv
+      md5: 8da6e1a10414b4668c6ddd3bb921d9d9
+      size: 4828027
+    - path: gene_meta_190805.tsv
+      md5: 52903c87796290d11db1a17850011189
+      size: 79886712
