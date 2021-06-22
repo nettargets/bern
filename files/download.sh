@@ -20,6 +20,9 @@ wget -nc https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.20.0/sqlite-jdb
 # download stanford-corenlp-3.5.2.jar
 wget -nc https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.5.2/stanford-corenlp-3.5.2.jar
 
+# download data.zip
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NqgG3zJzopG2IqG-0g1o6fH0xVpO4PPN" -O data.zip && rm -rf /tmp/cookies.txt
+
 # download resources.zip
 wget -nc --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1uU1U6UORqr3l_YYQ5TXeazpLrpeg_OcP" -O resources.zip && rm -rf /tmp/cookies.txt
 
