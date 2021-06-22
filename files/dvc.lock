@@ -4,8 +4,8 @@ stages:
     cmd: ./download.sh
     deps:
     - path: download.sh
-      md5: 59bffc23ebe529d90d9992fed539631b
-      size: 2373
+      md5: 5f57ffa11af9cd1c3f7f45fbf5a4e7aa
+      size: 2789
     outs:
     - path: GNormPlusJava.zip
       md5: d99060fdadeef8d382a7ca5c5b7f71c9
@@ -14,11 +14,14 @@ stages:
       md5: 5945b0105961f393f6c70d3c3ce36d40
       size: 9503004
     - path: biobert_ner_models.zip
-      md5: f7ede436488036d54eecad71586a4ddc
-      size: 3127
+      md5: 8b88e28f230fbcb5d43a49c47da606ae
+      size: 3297
     - path: crfpp-0.58.tar.gz
       md5: c8ffd456ab1a6815ba916c1083194a99
       size: 790570
+    - path: data.zip
+      md5: 84f03de736c454f92edd628ef9b0b3a0
+      size: 150131533
     - path: resources.zip
       md5: b9ffccf17796c52672fcf5aa4d7d7e1c
       size: 1047393197
